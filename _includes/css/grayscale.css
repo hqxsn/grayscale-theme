@@ -25,7 +25,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -342,6 +342,41 @@ footer p {
     margin: 0;
 }
 
+.panel-profile .panel-title {
+    margin-bottom: 5px
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#843534;
+}
+
+.panel-profile .panel-heading {
+    height: 150px;
+    background-size: cover
+}
+
+.panel-profile-img {
+    max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
+}
+
+.panel-menu {
+    list-style: none;
+    padding: 0
+}
+
+.panel-menu-item {
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid var(--colorGrayLighter)
+}
+
+.panel-menu-item:last-child {
+    border-right: 0
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
@@ -364,4 +399,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.m-b {
+    margin-bottom: 15px !important
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#843534;
 }
