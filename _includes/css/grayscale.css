@@ -402,7 +402,7 @@ body {
 }
 
 .m-b {
-    margin-bottom: 15px !important
+    margin-bottom: !important
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color:#843534;
 }
