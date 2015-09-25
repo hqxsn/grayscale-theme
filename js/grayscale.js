@@ -29,12 +29,14 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+
+
 // Google Maps Scripts
 // When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', init);
+//google.maps.event.addDomListener(window, 'load', init);
 
 function init() {
-    // Basic options for a simple Google Map
+    /*// Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
@@ -174,5 +176,24 @@ function init() {
         position: myLatLng,
         map: map,
         icon: image
+    });*/
+
+    var map = new BMap.Map("allmap");
+    var point = new BMap.Point(121.430223,31.223601);
+    var marker = new BMap.Marker(point);  // 创建标注
+    map.addOverlay(marker);              // 将标注添加到地图中
+    map.centerAndZoom(point, 17);
+    var opts = {
+        width : 200,     // 信息窗口宽度
+        height: 100,     // 信息窗口高度
+        title : "匠心科技空间" , // 信息窗口标题
+        enableMessage:true,//设置允许信息窗发送短息
+        message:"有O2O创业技术方面需求，请来联系"
+    }
+    var infoWindow = new BMap.InfoWindow("地址：北京市东城区王府井大街88号乐天银泰百货八层", opts);  // 创建信息窗口对象
+    marker.addEventListener("click", function(){
+        map.openInfoWindow(infoWindow,point); //开启信息窗口
     });
+
+
 }
