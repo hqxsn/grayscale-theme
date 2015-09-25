@@ -1,6 +1,6 @@
 # Site settings
-title: jiangxin
-email: administrator@jiangxin.com
+title: 匠心科技, 匠心科技致力于于以CTO的较色陪同创业者一起成长
+email: jiang@jiangxin.com
 url: https://www.jiangxin.cn
 description: "匠心科技致力于于以CTO的较色陪同创业者一起成长"
 
@@ -13,17 +13,7 @@ color:
 footer: 匠心科技
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+#social:
 
 # Build settings
 markdown: kramdown
