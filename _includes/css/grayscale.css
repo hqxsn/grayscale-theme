@@ -377,6 +377,18 @@ footer p {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
 }
 
+.panel-body p {
+    margin: 0 0 25px;
+    font-size: 16px;
+    line-height: 1.1;
+}
+
+.panel-footer p {
+    margin: 0 0 25px;
+    font-size: 16px;
+    line-height: 1.1;
+}
+
 .panel-menu {
     list-style: none;
     padding: 0
