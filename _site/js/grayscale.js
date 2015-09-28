@@ -29,6 +29,10 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+function add_section() {
+    
+}
+
 function post_apply() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
