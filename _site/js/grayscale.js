@@ -30,7 +30,7 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 function add_section() {
-    
+
 }
 
 function post_apply() {
@@ -43,7 +43,7 @@ function post_apply() {
 
     $.ajax({
         url: 'http://localhost:9000/apply',
-        dataType: 'json',
+        dataType: 'text',
         type: 'POST',
         contentType: 'application/json;charset=UTF-8',
         data: json,
