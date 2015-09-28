@@ -433,3 +433,69 @@ body {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color:#843534;
 }
+
+section#application {
+    background-color: #222;
+   /*background-image: url(../img/map-image.png);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+section#application .section-heading {
+    color: #fff;
+}
+
+section#application .form-group {
+    margin-bottom: 25px;
+}
+
+section#application .form-group input,
+section#application .form-group textarea {
+    padding: 20px;
+}
+
+section#application .form-group input.form-control {
+    height: auto;
+}
+
+section#application .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#application .form-control:focus {
+    border-color: #{{ site.color.primary }};
+box-shadow: none;
+}
+
+section#application::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#application:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#application:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#application .text-danger {
+    color: #e74c3c;
+}
