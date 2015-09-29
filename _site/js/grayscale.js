@@ -29,6 +29,10 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+function add_section() {
+
+}
+
 function post_apply() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
@@ -38,7 +42,7 @@ function post_apply() {
     var json = JSON.stringify( { "name": name, "email": email, "phone": phone, "message": message } );
 
     $.ajax({
-        url: 'http://localhost:9000/apply',
+        url: 'http://139.196.41.151:9000/apply',
         dataType: 'text',
         type: 'POST',
         contentType: 'application/json;charset=UTF-8',
