@@ -280,6 +280,7 @@ background-size: cover;
 }
 
 #map {
+    max-width:100%;
     width: 50%;
     height: 100%;
     margin-top: -5px;
